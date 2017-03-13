@@ -240,3 +240,6 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/prof/.idea
+/prof/cmake-build-debug
+/minimaltimeunit/a.out

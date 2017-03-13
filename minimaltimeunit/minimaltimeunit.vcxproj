@@ -18,36 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="AVL.cpp" />
-    <ClCompile Include="H2.cpp" />
-    <ClCompile Include="Hybrid.cpp" />
-    <ClCompile Include="Imdb.cpp" />
-    <ClCompile Include="Order.cpp" />
-    <ClCompile Include="test.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="AVL.h" />
-    <ClInclude Include="H2.h" />
-    <ClInclude Include="Hybrid.h" />
-    <ClInclude Include="Imdb.h" />
-    <ClInclude Include="Noncopyable.h" />
-    <ClInclude Include="Ops.h" />
-    <ClInclude Include="Order.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="build.sh" />
-    <None Include="build\result" />
-    <None Include="build\run50test.sh" />
-    <None Include="build\testresult" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="CMakeLists.txt" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{12C8AC4F-E7F7-4AC1-A4D1-F5A0B2559F10}</ProjectGuid>
+    <ProjectGuid>{8EA563A0-EEBD-4BAF-B016-019A0A9A1BF4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>prof</RootNamespace>
+    <RootNamespace>minimaltimeunit</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -167,6 +141,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="源.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

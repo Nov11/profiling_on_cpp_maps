@@ -5,6 +5,8 @@
 #include <set>
 #include <thread>
 #include <iterator>
+#include <algorithm>
+#include <random>
 #include "Order.h"
 #include "Ops.h"
 #include "Imdb.h"
@@ -30,7 +32,7 @@ decltype(SYS::now()) pt(decltype(SYS::now())& beg, const std::string& msg){
     cout << "test of " << msg << " :\t\t" << chrono::duration_cast<chrono::microseconds>(end - beg).count() << "us" <<endl;
     return SYS::now();
 }
-void test(Ops& db1, const vector<std::shared_ptr<Order>>& testCase, const std::string& msg) {
+void test(Ops& db1, const vector<std::shared_ptr<Order>>& testCase, const std::string& msg, map<chrono::microseconds, string>& fastest) {
 	cout << "start test of " << msg << endl;
 	auto beg = SYS::now();
 	for (auto& iter : testCase) {
@@ -42,15 +44,17 @@ void test(Ops& db1, const vector<std::shared_ptr<Order>>& testCase, const std::s
 		assert(ret == iter);
 	}
     next = pt(next, "get");
-	for (auto& iter : testCase) {
-		auto ret = db1.get(iter->package_leg_id);
-		assert(ret.size() > 0);
+	for(int i = 0; i < 5; i++){
+        for (auto& iter : testCase) {
+            auto ret = db1.get(iter->package_leg_id);
+            assert(ret.size() > 0);
 #ifndef NDEBUG
-		for (auto& inner : ret) {
-			assert(ns::equalPkgId(iter->package_leg_id, inner->package_leg_id));
-		}
+            for (auto& inner : ret) {
+                assert(ns::equalPkgId(iter->package_leg_id, inner->package_leg_id));
+            }
 #endif
-	}
+        }
+    }
     next = pt(next, "range get");
 
 	for (auto& iter : testCase) {
@@ -59,7 +63,9 @@ void test(Ops& db1, const vector<std::shared_ptr<Order>>& testCase, const std::s
 	}
 	pt(next, "remove");
 	auto end = SYS::now();
-	cout << "test of " << msg << " takes:\t" << chrono::duration_cast<chrono::microseconds>(end - beg).count() << "us" << endl;
+    auto us = chrono::duration_cast<chrono::microseconds>(end - beg);
+	cout << "test of " << msg << " takes:\t" << us.count() << "us" << endl;
+    fastest[us] = msg;
 }
 
 void th(vector<std::shared_ptr<Order>> & list, int number, int idx) {
@@ -102,15 +108,25 @@ int main(int args, char* argv[]) {
 		decltype(v) blank;
 		swap(blank, v);
 	}
+    //随机排列下测试数据
+    unsigned seed = static_cast<unsigned>(std::chrono::high_resolution_clock::now().time_since_epoch().count());
+    std::shuffle(testCase.begin(), testCase.end(), std::default_random_engine(seed));
 	cout << "data set of " << testCase.size() << " is ready." << endl;
 	assert(testCase.size() == static_cast<unsigned >(sum));
+    map<chrono::microseconds, string> fastest;
 	Imdb imdb;
-	test(imdb, testCase, "hash");
+	test(imdb, testCase, "hash", fastest);
 	AVL avl;
-	test(avl, testCase, "avl");
+	test(avl, testCase, "avl", fastest);
 	Hybrid hybrid;
-	test(hybrid, testCase, "hybrid");
+	test(hybrid, testCase, "hybrid", fastest);
 	H2 h2;
-	test(h2, testCase, "h2");
+	test(h2, testCase, "h2", fastest);
+    cout << "//fastest of the four conbination:" << fastest.begin()->second<<endl;
+    cout<<"summary:"<<endl;
+    for(auto& iter : fastest){
+        cout<<iter.second<<" takes: \t" << iter.first.count() << " us" << endl;
+    }
+    cout<<endl;
 	//cout << sizeof(Order) << endl;
 }

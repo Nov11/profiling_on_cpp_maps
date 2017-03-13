@@ -1,0 +1,193 @@
+data set of 1000000 is ready.
+start test of hash
+test of insert takes:   334961us
+test of get takes:      225020us
+test of range get takes:        3876166us
+test of remove takes:   1699786us
+test of hash takes:     6136015us
+start test of avl
+test of insert takes:   734608us
+test of get takes:      304014us
+test of range get takes:        3192544us
+test of remove takes:   833587us
+test of avl takes:      5064828us
+
+
+data set of 10000000 is ready.
+start test of hash
+test of insert takes:	4554487us
+test of get takes:	2489368us
+test of range get takes:	39070648us
+test of remove takes:	16515289us
+test of hash takes:	63052976us
+start test of avl
+test of insert takes:	8864648us
+test of get takes:	4097757us
+test of range get takes:	32800296us
+test of remove takes:	10158488us
+test of avl takes:	56176627us
+
+//========加入混合版本后的实验数据
+
+data set of 10000000 is ready.
+start test of hash
+test of insert takes:   4168696us
+test of get takes:      2409123us
+test of range get takes:        39530000us
+test of remove takes:   16800919us
+test of hash takes:     62908828us
+start test of avl
+test of insert takes:   8952765us
+test of get takes:      4036392us
+test of range get takes:        32949870us
+test of remove takes:   10167489us
+test of avl takes:      56111378us
+start test of hybrid
+test of insert takes:   6868514us
+test of get takes:      2765535us
+test of range get takes:        33195956us
+test of remove takes:   7027907us
+test of hybrid takes:   49857982us
+start test of h2
+test of insert takes:   6314419us
+test of get takes:      4223341us
+test of range get takes:        39723745us
+test of remove takes:   20210080us
+test of h2 takes:       70471657us
+
+
+data set of 1000000 is ready.
+start test of hash
+test of insert takes:   335039us
+test of get takes:      229050us
+test of range get takes:        4100428us
+test of remove takes:   1718977us
+test of hash takes:     6383574us
+start test of avl
+test of insert takes:   722879us
+test of get takes:      302785us
+test of range get takes:        3227989us
+test of remove takes:   822379us
+test of avl takes:      5076101us
+start test of hybrid
+test of insert takes:   512283us
+test of get takes:      259484us
+test of range get takes:        3194916us
+test of remove takes:   703217us
+test of hybrid takes:   4669985us
+start test of h2
+test of insert takes:   448621us
+test of get takes:      344046us
+test of range get takes:        3913012us
+test of remove takes:   1871336us
+test of h2 takes:       6577081us
+
+
+
+
+
+
+data set of 100000 is ready.
+start test of hash
+test of insert takes:   38761us
+test of get takes:      26453us
+test of range get takes:        394350us
+test of remove takes:   173883us
+test of hash takes:     633527us
+start test of avl
+test of insert takes:   60512us
+test of get takes:      22960us
+test of range get takes:        309926us
+test of remove takes:   67044us
+test of avl takes:      460516us
+start test of hybrid
+test of insert takes:   50413us
+test of get takes:      27084us
+test of range get takes:        313928us
+test of remove takes:   63809us
+test of hybrid takes:   455306us
+start test of h2
+test of insert takes:   39032us
+test of get takes:      25271us
+test of range get takes:        400322us
+test of remove takes:   177622us
+test of h2 takes:       642337us
+
+///=================windows
+data set of 10000000 is ready.
+start test of hash
+test of insert :                10363688us
+test of get :           3761139us
+test of range get :             36516095us
+test of remove :                10105705us
+test of hash takes:     60750468us
+start test of avl
+test of insert :                9092227us
+test of get :           4532153us
+test of range get :             38912433us
+test of remove :                12092336us
+test of avl takes:      64632809us
+start test of hybrid
+test of insert :                13043501us
+test of get :           3726957us
+test of range get :             38796573us
+test of remove :                12117119us
+test of hybrid takes:   67745004us
+start test of h2
+test of insert :                7007744us
+test of get :           5041543us
+test of range get :             36789114us
+test of remove :                10751131us
+test of h2 takes:       59751870us
+
+data set of 1000000 is ready.
+start test of hash
+test of insert :                552646us
+test of get :           339546us
+test of range get :             3486732us
+test of remove :                905252us
+test of hash takes:     5287504us
+start test of avl
+test of insert :                730052us
+test of get :           376818us
+test of range get :             3562161us
+test of remove :                1007857us
+test of avl takes:      5679935us
+start test of hybrid
+test of insert :                824640us
+test of get :           320327us
+test of range get :             3482946us
+test of remove :                963678us
+test of hybrid takes:   5594363us
+start test of h2
+test of insert :                453933us
+test of get :           388394us
+test of range get :             3491573us
+test of remove :                963454us
+test of h2 takes:       5300069us
+
+data set of 100000 is ready.
+start test of hash
+test of insert :                48691us
+test of get :           24731us
+test of range get :             340205us
+test of remove :                84145us
+test of hash takes:     500765us
+start test of avl
+test of insert :                65088us
+test of get :           34761us
+test of range get :             340284us
+test of remove :                84341us
+test of avl takes:      528636us
+start test of hybrid
+test of insert :                69118us
+test of get :           24291us
+test of range get :             343159us
+test of remove :                82753us
+test of hybrid takes:   522262us
+start test of h2
+test of insert :                42118us
+test of get :           36461us
+test of range get :             350591us
+test of remove :                86038us
+test of h2 takes:       519288us
