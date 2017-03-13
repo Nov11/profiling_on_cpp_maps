@@ -60,8 +60,8 @@
   <ItemGroup>
     <None Include="build.sh" />
     <None Include="build\result" />
-    <None Include="build\run50test.sh" />
     <None Include="build\testresult" />
+    <None Include="build\runtest.sh" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
