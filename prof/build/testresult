@@ -1,0 +1,3200 @@
+data set of 10000 is ready.
+start test of hash
+test of insert :		6173us
+test of get :		3501us
+test of range get :		306685us
+test of remove :		24960us
+test of hash takes:	341450us
+start test of avl
+test of insert :		6219us
+test of get :		3313us
+test of range get :		247374us
+test of remove :		9550us
+test of avl takes:	266565us
+start test of hybrid
+test of insert :		5165us
+test of get :		2295us
+test of range get :		240347us
+test of remove :		7471us
+test of hybrid takes:	255371us
+start test of h2
+test of insert :		4699us
+test of get :		3193us
+test of range get :		277273us
+test of remove :		24660us
+test of h2 takes:	309928us
+//fastest of the four conbination:hybrid
+summary:
+hybrid takes: 	255371 us
+avl takes: 	266565 us
+h2 takes: 	309928 us
+hash takes: 	341450 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6308us
+test of get :		5493us
+test of range get :		264976us
+test of remove :		23060us
+test of hash takes:	299990us
+start test of avl
+test of insert :		6377us
+test of get :		3383us
+test of range get :		229318us
+test of remove :		9577us
+test of avl takes:	248759us
+start test of hybrid
+test of insert :		5328us
+test of get :		2297us
+test of range get :		235554us
+test of remove :		8122us
+test of hybrid takes:	251401us
+start test of h2
+test of insert :		4668us
+test of get :		3410us
+test of range get :		269904us
+test of remove :		24364us
+test of h2 takes:	302445us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248759 us
+hybrid takes: 	251401 us
+hash takes: 	299990 us
+h2 takes: 	302445 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4088us
+test of get :		2572us
+test of range get :		272582us
+test of remove :		22123us
+test of hash takes:	301480us
+start test of avl
+test of insert :		6272us
+test of get :		3345us
+test of range get :		222443us
+test of remove :		9586us
+test of avl takes:	241752us
+start test of hybrid
+test of insert :		5600us
+test of get :		2558us
+test of range get :		233055us
+test of remove :		7392us
+test of hybrid takes:	248711us
+start test of h2
+test of insert :		4753us
+test of get :		3320us
+test of range get :		268268us
+test of remove :		24428us
+test of h2 takes:	300877us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	241752 us
+hybrid takes: 	248711 us
+h2 takes: 	300877 us
+hash takes: 	301480 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4648us
+test of get :		4742us
+test of range get :		267214us
+test of remove :		21852us
+test of hash takes:	298602us
+start test of avl
+test of insert :		6267us
+test of get :		3422us
+test of range get :		219749us
+test of remove :		9622us
+test of avl takes:	239167us
+start test of hybrid
+test of insert :		5219us
+test of get :		2275us
+test of range get :		232275us
+test of remove :		7196us
+test of hybrid takes:	247061us
+start test of h2
+test of insert :		4797us
+test of get :		3296us
+test of range get :		269037us
+test of remove :		25064us
+test of h2 takes:	302293us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	239167 us
+hybrid takes: 	247061 us
+hash takes: 	298602 us
+h2 takes: 	302293 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3937us
+test of get :		2467us
+test of range get :		271664us
+test of remove :		22605us
+test of hash takes:	300783us
+start test of avl
+test of insert :		6303us
+test of get :		3428us
+test of range get :		232984us
+test of remove :		9579us
+test of avl takes:	252400us
+start test of hybrid
+test of insert :		5204us
+test of get :		2401us
+test of range get :		245724us
+test of remove :		7444us
+test of hybrid takes:	260872us
+start test of h2
+test of insert :		4619us
+test of get :		3203us
+test of range get :		280340us
+test of remove :		24898us
+test of h2 takes:	313156us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	252400 us
+hybrid takes: 	260872 us
+hash takes: 	300783 us
+h2 takes: 	313156 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4099us
+test of get :		2645us
+test of range get :		272449us
+test of remove :		24079us
+test of hash takes:	303395us
+start test of avl
+test of insert :		6716us
+test of get :		3472us
+test of range get :		230120us
+test of remove :		9470us
+test of avl takes:	249892us
+start test of hybrid
+test of insert :		5352us
+test of get :		2492us
+test of range get :		241434us
+test of remove :		7518us
+test of hybrid takes:	256892us
+start test of h2
+test of insert :		4689us
+test of get :		3351us
+test of range get :		273700us
+test of remove :		24865us
+test of h2 takes:	306705us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249892 us
+hybrid takes: 	256892 us
+hash takes: 	303395 us
+h2 takes: 	306705 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3963us
+test of get :		2536us
+test of range get :		269932us
+test of remove :		22317us
+test of hash takes:	298858us
+start test of avl
+test of insert :		6407us
+test of get :		3346us
+test of range get :		224335us
+test of remove :		9589us
+test of avl takes:	243783us
+start test of hybrid
+test of insert :		5502us
+test of get :		2586us
+test of range get :		239440us
+test of remove :		7265us
+test of hybrid takes:	254888us
+start test of h2
+test of insert :		4722us
+test of get :		3366us
+test of range get :		269357us
+test of remove :		24237us
+test of h2 takes:	301778us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243783 us
+hybrid takes: 	254888 us
+hash takes: 	298858 us
+h2 takes: 	301778 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6814us
+test of get :		2934us
+test of range get :		280509us
+test of remove :		22831us
+test of hash takes:	313195us
+start test of avl
+test of insert :		6324us
+test of get :		3332us
+test of range get :		227817us
+test of remove :		9626us
+test of avl takes:	247206us
+start test of hybrid
+test of insert :		5327us
+test of get :		2418us
+test of range get :		238597us
+test of remove :		7462us
+test of hybrid takes:	253897us
+start test of h2
+test of insert :		4656us
+test of get :		3453us
+test of range get :		279607us
+test of remove :		24607us
+test of h2 takes:	312423us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	247206 us
+hybrid takes: 	253897 us
+h2 takes: 	312423 us
+hash takes: 	313195 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4110us
+test of get :		2549us
+test of range get :		269568us
+test of remove :		22278us
+test of hash takes:	298613us
+start test of avl
+test of insert :		6309us
+test of get :		3472us
+test of range get :		227716us
+test of remove :		9279us
+test of avl takes:	246882us
+start test of hybrid
+test of insert :		5275us
+test of get :		2497us
+test of range get :		239222us
+test of remove :		7348us
+test of hybrid takes:	254441us
+start test of h2
+test of insert :		4698us
+test of get :		3472us
+test of range get :		274477us
+test of remove :		24556us
+test of h2 takes:	307302us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246882 us
+hybrid takes: 	254441 us
+hash takes: 	298613 us
+h2 takes: 	307302 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6961us
+test of get :		2610us
+test of range get :		269862us
+test of remove :		22589us
+test of hash takes:	302137us
+start test of avl
+test of insert :		6423us
+test of get :		3431us
+test of range get :		224341us
+test of remove :		9577us
+test of avl takes:	243888us
+start test of hybrid
+test of insert :		5376us
+test of get :		2476us
+test of range get :		238100us
+test of remove :		7482us
+test of hybrid takes:	253545us
+start test of h2
+test of insert :		4683us
+test of get :		3427us
+test of range get :		269680us
+test of remove :		24862us
+test of h2 takes:	302756us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243888 us
+hybrid takes: 	253545 us
+hash takes: 	302137 us
+h2 takes: 	302756 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3980us
+test of get :		2434us
+test of range get :		272983us
+test of remove :		22300us
+test of hash takes:	301807us
+start test of avl
+test of insert :		6335us
+test of get :		3574us
+test of range get :		225174us
+test of remove :		9369us
+test of avl takes:	244557us
+start test of hybrid
+test of insert :		5430us
+test of get :		2376us
+test of range get :		238225us
+test of remove :		7301us
+test of hybrid takes:	253425us
+start test of h2
+test of insert :		4570us
+test of get :		3450us
+test of range get :		269849us
+test of remove :		24231us
+test of h2 takes:	302213us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244557 us
+hybrid takes: 	253425 us
+hash takes: 	301807 us
+h2 takes: 	302213 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9366us
+test of get :		3140us
+test of range get :		281087us
+test of remove :		22225us
+test of hash takes:	315931us
+start test of avl
+test of insert :		6576us
+test of get :		3617us
+test of range get :		225741us
+test of remove :		9633us
+test of avl takes:	245675us
+start test of hybrid
+test of insert :		5251us
+test of get :		2286us
+test of range get :		238009us
+test of remove :		7410us
+test of hybrid takes:	253047us
+start test of h2
+test of insert :		4707us
+test of get :		3363us
+test of range get :		272378us
+test of remove :		24832us
+test of h2 takes:	305406us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245675 us
+hybrid takes: 	253047 us
+h2 takes: 	305406 us
+hash takes: 	315931 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4193us
+test of get :		2564us
+test of range get :		267670us
+test of remove :		22786us
+test of hash takes:	297319us
+start test of avl
+test of insert :		6528us
+test of get :		3398us
+test of range get :		229995us
+test of remove :		9570us
+test of avl takes:	249593us
+start test of hybrid
+test of insert :		5502us
+test of get :		2426us
+test of range get :		237942us
+test of remove :		7380us
+test of hybrid takes:	253347us
+start test of h2
+test of insert :		4650us
+test of get :		3268us
+test of range get :		273439us
+test of remove :		24382us
+test of h2 takes:	305836us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249593 us
+hybrid takes: 	253347 us
+hash takes: 	297319 us
+h2 takes: 	305836 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3982us
+test of get :		2344us
+test of range get :		271581us
+test of remove :		22293us
+test of hash takes:	300308us
+start test of avl
+test of insert :		6321us
+test of get :		3488us
+test of range get :		232959us
+test of remove :		9292us
+test of avl takes:	252163us
+start test of hybrid
+test of insert :		5540us
+test of get :		2373us
+test of range get :		240908us
+test of remove :		7478us
+test of hybrid takes:	256393us
+start test of h2
+test of insert :		4592us
+test of get :		3351us
+test of range get :		275904us
+test of remove :		24510us
+test of h2 takes:	308465us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	252163 us
+hybrid takes: 	256393 us
+hash takes: 	300308 us
+h2 takes: 	308465 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		5566us
+test of get :		2950us
+test of range get :		284890us
+test of remove :		22571us
+test of hash takes:	316080us
+start test of avl
+test of insert :		6207us
+test of get :		3447us
+test of range get :		225510us
+test of remove :		9355us
+test of avl takes:	244621us
+start test of hybrid
+test of insert :		5284us
+test of get :		2361us
+test of range get :		239101us
+test of remove :		7372us
+test of hybrid takes:	254211us
+start test of h2
+test of insert :		4566us
+test of get :		3289us
+test of range get :		270654us
+test of remove :		24887us
+test of h2 takes:	303497us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244621 us
+hybrid takes: 	254211 us
+h2 takes: 	303497 us
+hash takes: 	316080 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3997us
+test of get :		2395us
+test of range get :		266198us
+test of remove :		22313us
+test of hash takes:	295008us
+start test of avl
+test of insert :		6361us
+test of get :		3411us
+test of range get :		223303us
+test of remove :		9526us
+test of avl takes:	242707us
+start test of hybrid
+test of insert :		5239us
+test of get :		2327us
+test of range get :		235666us
+test of remove :		7685us
+test of hybrid takes:	251010us
+start test of h2
+test of insert :		4607us
+test of get :		3478us
+test of range get :		272442us
+test of remove :		25259us
+test of h2 takes:	305896us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	242707 us
+hybrid takes: 	251010 us
+hash takes: 	295008 us
+h2 takes: 	305896 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9662us
+test of get :		2633us
+test of range get :		285743us
+test of remove :		22209us
+test of hash takes:	320354us
+start test of avl
+test of insert :		6247us
+test of get :		3371us
+test of range get :		227885us
+test of remove :		9429us
+test of avl takes:	247035us
+start test of hybrid
+test of insert :		5277us
+test of get :		2444us
+test of range get :		233294us
+test of remove :		7414us
+test of hybrid takes:	248521us
+start test of h2
+test of insert :		4669us
+test of get :		3227us
+test of range get :		273304us
+test of remove :		24306us
+test of h2 takes:	305602us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	247035 us
+hybrid takes: 	248521 us
+h2 takes: 	305602 us
+hash takes: 	320354 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		5377us
+test of get :		2431us
+test of range get :		281713us
+test of remove :		22929us
+test of hash takes:	312557us
+start test of avl
+test of insert :		6835us
+test of get :		3577us
+test of range get :		229002us
+test of remove :		9660us
+test of avl takes:	249185us
+start test of hybrid
+test of insert :		5100us
+test of get :		2291us
+test of range get :		240846us
+test of remove :		7312us
+test of hybrid takes:	255647us
+start test of h2
+test of insert :		4621us
+test of get :		3383us
+test of range get :		273803us
+test of remove :		24480us
+test of h2 takes:	306387us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249185 us
+hybrid takes: 	255647 us
+h2 takes: 	306387 us
+hash takes: 	312557 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4010us
+test of get :		2448us
+test of range get :		277706us
+test of remove :		22576us
+test of hash takes:	306847us
+start test of avl
+test of insert :		6221us
+test of get :		3475us
+test of range get :		231245us
+test of remove :		9746us
+test of avl takes:	250792us
+start test of hybrid
+test of insert :		5427us
+test of get :		2559us
+test of range get :		247573us
+test of remove :		7423us
+test of hybrid takes:	263076us
+start test of h2
+test of insert :		4660us
+test of get :		3466us
+test of range get :		276879us
+test of remove :		24538us
+test of h2 takes:	309645us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	250792 us
+hybrid takes: 	263076 us
+hash takes: 	306847 us
+h2 takes: 	309645 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4022us
+test of get :		2502us
+test of range get :		272793us
+test of remove :		22591us
+test of hash takes:	302014us
+start test of avl
+test of insert :		6362us
+test of get :		3388us
+test of range get :		231983us
+test of remove :		9466us
+test of avl takes:	251308us
+start test of hybrid
+test of insert :		5408us
+test of get :		2409us
+test of range get :		237325us
+test of remove :		7262us
+test of hybrid takes:	252500us
+start test of h2
+test of insert :		4730us
+test of get :		3501us
+test of range get :		279396us
+test of remove :		24790us
+test of h2 takes:	312520us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	251308 us
+hybrid takes: 	252500 us
+hash takes: 	302014 us
+h2 takes: 	312520 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4110us
+test of get :		2470us
+test of range get :		277482us
+test of remove :		24595us
+test of hash takes:	308763us
+start test of avl
+test of insert :		6416us
+test of get :		3345us
+test of range get :		233630us
+test of remove :		9426us
+test of avl takes:	252926us
+start test of hybrid
+test of insert :		5458us
+test of get :		2412us
+test of range get :		248740us
+test of remove :		7361us
+test of hybrid takes:	264062us
+start test of h2
+test of insert :		4650us
+test of get :		3234us
+test of range get :		279635us
+test of remove :		24914us
+test of h2 takes:	312543us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	252926 us
+hybrid takes: 	264062 us
+hash takes: 	308763 us
+h2 takes: 	312543 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6046us
+test of get :		2688us
+test of range get :		276449us
+test of remove :		22449us
+test of hash takes:	307736us
+start test of avl
+test of insert :		6350us
+test of get :		3572us
+test of range get :		223801us
+test of remove :		9368us
+test of avl takes:	243205us
+start test of hybrid
+test of insert :		5230us
+test of get :		2430us
+test of range get :		236331us
+test of remove :		7409us
+test of hybrid takes:	251496us
+start test of h2
+test of insert :		4592us
+test of get :		3292us
+test of range get :		269495us
+test of remove :		24525us
+test of h2 takes:	302001us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243205 us
+hybrid takes: 	251496 us
+h2 takes: 	302001 us
+hash takes: 	307736 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		5125us
+test of get :		2636us
+test of range get :		266492us
+test of remove :		22170us
+test of hash takes:	296539us
+start test of avl
+test of insert :		6366us
+test of get :		3512us
+test of range get :		222593us
+test of remove :		9432us
+test of avl takes:	242004us
+start test of hybrid
+test of insert :		5337us
+test of get :		2465us
+test of range get :		232864us
+test of remove :		7528us
+test of hybrid takes:	248295us
+start test of h2
+test of insert :		4631us
+test of get :		3166us
+test of range get :		270313us
+test of remove :		24354us
+test of h2 takes:	302563us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	242004 us
+hybrid takes: 	248295 us
+hash takes: 	296539 us
+h2 takes: 	302563 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4121us
+test of get :		2488us
+test of range get :		276469us
+test of remove :		22647us
+test of hash takes:	305831us
+start test of avl
+test of insert :		6379us
+test of get :		3444us
+test of range get :		235743us
+test of remove :		9500us
+test of avl takes:	255167us
+start test of hybrid
+test of insert :		5411us
+test of get :		2484us
+test of range get :		243768us
+test of remove :		7374us
+test of hybrid takes:	259136us
+start test of h2
+test of insert :		4801us
+test of get :		3394us
+test of range get :		280415us
+test of remove :		24647us
+test of h2 takes:	313361us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	255167 us
+hybrid takes: 	259136 us
+hash takes: 	305831 us
+h2 takes: 	313361 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4018us
+test of get :		2446us
+test of range get :		269735us
+test of remove :		21989us
+test of hash takes:	298296us
+start test of avl
+test of insert :		6281us
+test of get :		3459us
+test of range get :		225059us
+test of remove :		9729us
+test of avl takes:	244635us
+start test of hybrid
+test of insert :		5336us
+test of get :		2286us
+test of range get :		235325us
+test of remove :		7378us
+test of hybrid takes:	250420us
+start test of h2
+test of insert :		4679us
+test of get :		3210us
+test of range get :		270154us
+test of remove :		24063us
+test of h2 takes:	302204us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244635 us
+hybrid takes: 	250420 us
+hash takes: 	298296 us
+h2 takes: 	302204 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4092us
+test of get :		2619us
+test of range get :		270122us
+test of remove :		22179us
+test of hash takes:	299121us
+start test of avl
+test of insert :		6305us
+test of get :		3567us
+test of range get :		220759us
+test of remove :		9552us
+test of avl takes:	240297us
+start test of hybrid
+test of insert :		5358us
+test of get :		2556us
+test of range get :		236099us
+test of remove :		7499us
+test of hybrid takes:	251609us
+start test of h2
+test of insert :		4684us
+test of get :		3253us
+test of range get :		268818us
+test of remove :		24505us
+test of h2 takes:	301356us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	240297 us
+hybrid takes: 	251609 us
+hash takes: 	299121 us
+h2 takes: 	301356 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4215us
+test of get :		2525us
+test of range get :		272315us
+test of remove :		22239us
+test of hash takes:	301397us
+start test of avl
+test of insert :		6349us
+test of get :		3488us
+test of range get :		226900us
+test of remove :		9640us
+test of avl takes:	246481us
+start test of hybrid
+test of insert :		5234us
+test of get :		2363us
+test of range get :		241982us
+test of remove :		7517us
+test of hybrid takes:	257190us
+start test of h2
+test of insert :		4756us
+test of get :		3494us
+test of range get :		273483us
+test of remove :		24460us
+test of h2 takes:	306302us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246481 us
+hybrid takes: 	257190 us
+hash takes: 	301397 us
+h2 takes: 	306302 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4037us
+test of get :		2497us
+test of range get :		272885us
+test of remove :		22682us
+test of hash takes:	302204us
+start test of avl
+test of insert :		6238us
+test of get :		3518us
+test of range get :		233534us
+test of remove :		9896us
+test of avl takes:	253289us
+start test of hybrid
+test of insert :		5334us
+test of get :		2404us
+test of range get :		233318us
+test of remove :		7238us
+test of hybrid takes:	248393us
+start test of h2
+test of insert :		4698us
+test of get :		3509us
+test of range get :		273336us
+test of remove :		24622us
+test of h2 takes:	306266us
+//fastest of the four conbination:hybrid
+summary:
+hybrid takes: 	248393 us
+avl takes: 	253289 us
+hash takes: 	302204 us
+h2 takes: 	306266 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9386us
+test of get :		2790us
+test of range get :		269663us
+test of remove :		22381us
+test of hash takes:	304366us
+start test of avl
+test of insert :		6353us
+test of get :		3393us
+test of range get :		226856us
+test of remove :		9655us
+test of avl takes:	246368us
+start test of hybrid
+test of insert :		5302us
+test of get :		2418us
+test of range get :		239548us
+test of remove :		7212us
+test of hybrid takes:	254574us
+start test of h2
+test of insert :		4791us
+test of get :		3438us
+test of range get :		270076us
+test of remove :		24633us
+test of h2 takes:	303043us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246368 us
+hybrid takes: 	254574 us
+h2 takes: 	303043 us
+hash takes: 	304366 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4857us
+test of get :		2634us
+test of range get :		266537us
+test of remove :		23011us
+test of hash takes:	297155us
+start test of avl
+test of insert :		6410us
+test of get :		3449us
+test of range get :		221885us
+test of remove :		9449us
+test of avl takes:	241307us
+start test of hybrid
+test of insert :		5383us
+test of get :		2485us
+test of range get :		232304us
+test of remove :		7481us
+test of hybrid takes:	247762us
+start test of h2
+test of insert :		4579us
+test of get :		3208us
+test of range get :		262593us
+test of remove :		24090us
+test of h2 takes:	294580us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	241307 us
+hybrid takes: 	247762 us
+h2 takes: 	294580 us
+hash takes: 	297155 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4001us
+test of get :		2485us
+test of range get :		273092us
+test of remove :		22592us
+test of hash takes:	302272us
+start test of avl
+test of insert :		6302us
+test of get :		3386us
+test of range get :		228062us
+test of remove :		9447us
+test of avl takes:	247295us
+start test of hybrid
+test of insert :		5182us
+test of get :		2344us
+test of range get :		240186us
+test of remove :		7183us
+test of hybrid takes:	254987us
+start test of h2
+test of insert :		4757us
+test of get :		3376us
+test of range get :		276578us
+test of remove :		24749us
+test of h2 takes:	309552us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	247295 us
+hybrid takes: 	254987 us
+hash takes: 	302272 us
+h2 takes: 	309552 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3829us
+test of get :		2329us
+test of range get :		262412us
+test of remove :		22010us
+test of hash takes:	290685us
+start test of avl
+test of insert :		6287us
+test of get :		3396us
+test of range get :		219820us
+test of remove :		9510us
+test of avl takes:	239114us
+start test of hybrid
+test of insert :		5298us
+test of get :		2336us
+test of range get :		226917us
+test of remove :		7171us
+test of hybrid takes:	241818us
+start test of h2
+test of insert :		4682us
+test of get :		3326us
+test of range get :		266411us
+test of remove :		24484us
+test of h2 takes:	299009us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	239114 us
+hybrid takes: 	241818 us
+hash takes: 	290685 us
+h2 takes: 	299009 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6128us
+test of get :		2668us
+test of range get :		272190us
+test of remove :		23974us
+test of hash takes:	305071us
+start test of avl
+test of insert :		6417us
+test of get :		3446us
+test of range get :		228782us
+test of remove :		9363us
+test of avl takes:	248110us
+start test of hybrid
+test of insert :		5400us
+test of get :		2426us
+test of range get :		239993us
+test of remove :		7802us
+test of hybrid takes:	255726us
+start test of h2
+test of insert :		4652us
+test of get :		3351us
+test of range get :		271075us
+test of remove :		25014us
+test of h2 takes:	304193us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248110 us
+hybrid takes: 	255726 us
+h2 takes: 	304193 us
+hash takes: 	305071 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6151us
+test of get :		2763us
+test of range get :		272645us
+test of remove :		22682us
+test of hash takes:	304349us
+start test of avl
+test of insert :		6425us
+test of get :		3427us
+test of range get :		227038us
+test of remove :		9320us
+test of avl takes:	246316us
+start test of hybrid
+test of insert :		5390us
+test of get :		2360us
+test of range get :		236885us
+test of remove :		7341us
+test of hybrid takes:	252070us
+start test of h2
+test of insert :		4665us
+test of get :		3436us
+test of range get :		271835us
+test of remove :		24657us
+test of h2 takes:	304694us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246316 us
+hybrid takes: 	252070 us
+hash takes: 	304349 us
+h2 takes: 	304694 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		10298us
+test of get :		4999us
+test of range get :		291824us
+test of remove :		22702us
+test of hash takes:	330044us
+start test of avl
+test of insert :		6224us
+test of get :		3313us
+test of range get :		230389us
+test of remove :		9617us
+test of avl takes:	249715us
+start test of hybrid
+test of insert :		5347us
+test of get :		2409us
+test of range get :		239665us
+test of remove :		7602us
+test of hybrid takes:	255122us
+start test of h2
+test of insert :		4770us
+test of get :		3493us
+test of range get :		273888us
+test of remove :		24742us
+test of h2 takes:	306994us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249715 us
+hybrid takes: 	255122 us
+h2 takes: 	306994 us
+hash takes: 	330044 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4117us
+test of get :		2694us
+test of range get :		270342us
+test of remove :		22193us
+test of hash takes:	299451us
+start test of avl
+test of insert :		6223us
+test of get :		3496us
+test of range get :		227206us
+test of remove :		9486us
+test of avl takes:	246517us
+start test of hybrid
+test of insert :		5308us
+test of get :		2436us
+test of range get :		234497us
+test of remove :		7526us
+test of hybrid takes:	249867us
+start test of h2
+test of insert :		4690us
+test of get :		3249us
+test of range get :		270461us
+test of remove :		24096us
+test of h2 takes:	302600us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246517 us
+hybrid takes: 	249867 us
+hash takes: 	299451 us
+h2 takes: 	302600 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4030us
+test of get :		2397us
+test of range get :		274669us
+test of remove :		22298us
+test of hash takes:	303498us
+start test of avl
+test of insert :		6256us
+test of get :		3402us
+test of range get :		226727us
+test of remove :		9719us
+test of avl takes:	246196us
+start test of hybrid
+test of insert :		5342us
+test of get :		2582us
+test of range get :		236141us
+test of remove :		7403us
+test of hybrid takes:	251564us
+start test of h2
+test of insert :		4743us
+test of get :		3336us
+test of range get :		271684us
+test of remove :		24419us
+test of h2 takes:	304277us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246196 us
+hybrid takes: 	251564 us
+hash takes: 	303498 us
+h2 takes: 	304277 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4156us
+test of get :		2478us
+test of range get :		270370us
+test of remove :		22159us
+test of hash takes:	299287us
+start test of avl
+test of insert :		6247us
+test of get :		3311us
+test of range get :		227418us
+test of remove :		9511us
+test of avl takes:	246602us
+start test of hybrid
+test of insert :		5393us
+test of get :		2547us
+test of range get :		240693us
+test of remove :		7454us
+test of hybrid takes:	256183us
+start test of h2
+test of insert :		4664us
+test of get :		3317us
+test of range get :		274229us
+test of remove :		24351us
+test of h2 takes:	306660us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246602 us
+hybrid takes: 	256183 us
+hash takes: 	299287 us
+h2 takes: 	306660 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4146us
+test of get :		3716us
+test of range get :		275030us
+test of remove :		22843us
+test of hash takes:	305842us
+start test of avl
+test of insert :		6445us
+test of get :		3475us
+test of range get :		232659us
+test of remove :		9643us
+test of avl takes:	252319us
+start test of hybrid
+test of insert :		5275us
+test of get :		2290us
+test of range get :		240391us
+test of remove :		7401us
+test of hybrid takes:	255448us
+start test of h2
+test of insert :		4776us
+test of get :		3273us
+test of range get :		273418us
+test of remove :		24745us
+test of h2 takes:	306313us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	252319 us
+hybrid takes: 	255448 us
+hash takes: 	305842 us
+h2 takes: 	306313 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4919us
+test of get :		2514us
+test of range get :		271880us
+test of remove :		22376us
+test of hash takes:	301801us
+start test of avl
+test of insert :		6234us
+test of get :		3440us
+test of range get :		233179us
+test of remove :		9477us
+test of avl takes:	252429us
+start test of hybrid
+test of insert :		5424us
+test of get :		2391us
+test of range get :		242045us
+test of remove :		7378us
+test of hybrid takes:	257332us
+start test of h2
+test of insert :		4609us
+test of get :		3337us
+test of range get :		276379us
+test of remove :		24520us
+test of h2 takes:	308944us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	252429 us
+hybrid takes: 	257332 us
+hash takes: 	301801 us
+h2 takes: 	308944 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4089us
+test of get :		2543us
+test of range get :		271379us
+test of remove :		22316us
+test of hash takes:	300438us
+start test of avl
+test of insert :		6394us
+test of get :		3421us
+test of range get :		229256us
+test of remove :		9421us
+test of avl takes:	248596us
+start test of hybrid
+test of insert :		5398us
+test of get :		2357us
+test of range get :		243400us
+test of remove :		7491us
+test of hybrid takes:	258744us
+start test of h2
+test of insert :		4562us
+test of get :		3210us
+test of range get :		274979us
+test of remove :		24475us
+test of h2 takes:	307327us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248596 us
+hybrid takes: 	258744 us
+hash takes: 	300438 us
+h2 takes: 	307327 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3992us
+test of get :		2442us
+test of range get :		270362us
+test of remove :		22609us
+test of hash takes:	299510us
+start test of avl
+test of insert :		6249us
+test of get :		3327us
+test of range get :		224382us
+test of remove :		9656us
+test of avl takes:	243724us
+start test of hybrid
+test of insert :		5288us
+test of get :		2493us
+test of range get :		232308us
+test of remove :		7205us
+test of hybrid takes:	247395us
+start test of h2
+test of insert :		4723us
+test of get :		3219us
+test of range get :		268014us
+test of remove :		25278us
+test of h2 takes:	301335us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243724 us
+hybrid takes: 	247395 us
+hash takes: 	299510 us
+h2 takes: 	301335 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4199us
+test of get :		2501us
+test of range get :		272809us
+test of remove :		23037us
+test of hash takes:	302657us
+start test of avl
+test of insert :		6489us
+test of get :		3559us
+test of range get :		229264us
+test of remove :		9578us
+test of avl takes:	248998us
+start test of hybrid
+test of insert :		5279us
+test of get :		2442us
+test of range get :		238775us
+test of remove :		7399us
+test of hybrid takes:	253991us
+start test of h2
+test of insert :		4573us
+test of get :		3221us
+test of range get :		273785us
+test of remove :		24496us
+test of h2 takes:	306180us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248998 us
+hybrid takes: 	253991 us
+hash takes: 	302657 us
+h2 takes: 	306180 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4018us
+test of get :		2692us
+test of range get :		268310us
+test of remove :		22312us
+test of hash takes:	297446us
+start test of avl
+test of insert :		6373us
+test of get :		3586us
+test of range get :		225317us
+test of remove :		9727us
+test of avl takes:	245134us
+start test of hybrid
+test of insert :		5438us
+test of get :		2318us
+test of range get :		237056us
+test of remove :		7529us
+test of hybrid takes:	252443us
+start test of h2
+test of insert :		4852us
+test of get :		3388us
+test of range get :		272298us
+test of remove :		25184us
+test of h2 takes:	305825us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245134 us
+hybrid takes: 	252443 us
+hash takes: 	297446 us
+h2 takes: 	305825 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		10450us
+test of get :		2540us
+test of range get :		278388us
+test of remove :		23199us
+test of hash takes:	314682us
+start test of avl
+test of insert :		6503us
+test of get :		4120us
+test of range get :		235565us
+test of remove :		9550us
+test of avl takes:	255847us
+start test of hybrid
+test of insert :		5468us
+test of get :		2357us
+test of range get :		247223us
+test of remove :		7556us
+test of hybrid takes:	262692us
+start test of h2
+test of insert :		4701us
+test of get :		3515us
+test of range get :		277795us
+test of remove :		25097us
+test of h2 takes:	311206us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	255847 us
+hybrid takes: 	262692 us
+h2 takes: 	311206 us
+hash takes: 	314682 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4126us
+test of get :		2413us
+test of range get :		272081us
+test of remove :		22734us
+test of hash takes:	301467us
+start test of avl
+test of insert :		6700us
+test of get :		3392us
+test of range get :		224535us
+test of remove :		9410us
+test of avl takes:	244147us
+start test of hybrid
+test of insert :		5201us
+test of get :		2412us
+test of range get :		236223us
+test of remove :		7386us
+test of hybrid takes:	251320us
+start test of h2
+test of insert :		5117us
+test of get :		3578us
+test of range get :		271558us
+test of remove :		24377us
+test of h2 takes:	304734us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244147 us
+hybrid takes: 	251320 us
+hash takes: 	301467 us
+h2 takes: 	304734 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4046us
+test of get :		2701us
+test of range get :		274531us
+test of remove :		22621us
+test of hash takes:	304007us
+start test of avl
+test of insert :		6419us
+test of get :		3426us
+test of range get :		230316us
+test of remove :		9593us
+test of avl takes:	249857us
+start test of hybrid
+test of insert :		5413us
+test of get :		2592us
+test of range get :		241609us
+test of remove :		7557us
+test of hybrid takes:	257269us
+start test of h2
+test of insert :		4678us
+test of get :		3280us
+test of range get :		274302us
+test of remove :		24515us
+test of h2 takes:	306871us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249857 us
+hybrid takes: 	257269 us
+hash takes: 	304007 us
+h2 takes: 	306871 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4060us
+test of get :		2393us
+test of range get :		272464us
+test of remove :		23197us
+test of hash takes:	302224us
+start test of avl
+test of insert :		6417us
+test of get :		3433us
+test of range get :		227922us
+test of remove :		9303us
+test of avl takes:	247181us
+start test of hybrid
+test of insert :		5837us
+test of get :		2629us
+test of range get :		235028us
+test of remove :		8413us
+test of hybrid takes:	252008us
+start test of h2
+test of insert :		4754us
+test of get :		3319us
+test of range get :		269699us
+test of remove :		24464us
+test of h2 takes:	302352us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	247181 us
+hybrid takes: 	252008 us
+hash takes: 	302224 us
+h2 takes: 	302352 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4047us
+test of get :		2457us
+test of range get :		279036us
+test of remove :		22708us
+test of hash takes:	308351us
+start test of avl
+test of insert :		6415us
+test of get :		3346us
+test of range get :		235134us
+test of remove :		9983us
+test of avl takes:	254986us
+start test of hybrid
+test of insert :		5419us
+test of get :		2364us
+test of range get :		251355us
+test of remove :		7338us
+test of hybrid takes:	266574us
+start test of h2
+test of insert :		4657us
+test of get :		3242us
+test of range get :		281351us
+test of remove :		24568us
+test of h2 takes:	313918us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	254986 us
+hybrid takes: 	266574 us
+hash takes: 	308351 us
+h2 takes: 	313918 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4038us
+test of get :		2493us
+test of range get :		274088us
+test of remove :		22452us
+test of hash takes:	303170us
+start test of avl
+test of insert :		6193us
+test of get :		3508us
+test of range get :		231076us
+test of remove :		9542us
+test of avl takes:	250427us
+start test of hybrid
+test of insert :		5290us
+test of get :		2584us
+test of range get :		234585us
+test of remove :		7277us
+test of hybrid takes:	249829us
+start test of h2
+test of insert :		4678us
+test of get :		3431us
+test of range get :		272057us
+test of remove :		24451us
+test of h2 takes:	304710us
+//fastest of the four conbination:hybrid
+summary:
+hybrid takes: 	249829 us
+avl takes: 	250427 us
+hash takes: 	303170 us
+h2 takes: 	304710 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3909us
+test of get :		2627us
+test of range get :		274939us
+test of remove :		23028us
+test of hash takes:	304608us
+start test of avl
+test of insert :		6256us
+test of get :		3452us
+test of range get :		229722us
+test of remove :		9454us
+test of avl takes:	248985us
+start test of hybrid
+test of insert :		5210us
+test of get :		2340us
+test of range get :		237892us
+test of remove :		7401us
+test of hybrid takes:	252934us
+start test of h2
+test of insert :		4617us
+test of get :		3460us
+test of range get :		271986us
+test of remove :		24443us
+test of h2 takes:	304606us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248985 us
+hybrid takes: 	252934 us
+h2 takes: 	304606 us
+hash takes: 	304608 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9091us
+test of get :		2791us
+test of range get :		272289us
+test of remove :		21959us
+test of hash takes:	306268us
+start test of avl
+test of insert :		6315us
+test of get :		3296us
+test of range get :		224197us
+test of remove :		9442us
+test of avl takes:	243351us
+start test of hybrid
+test of insert :		5242us
+test of get :		2373us
+test of range get :		234991us
+test of remove :		7346us
+test of hybrid takes:	250049us
+start test of h2
+test of insert :		4642us
+test of get :		3364us
+test of range get :		273816us
+test of remove :		24166us
+test of h2 takes:	306090us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243351 us
+hybrid takes: 	250049 us
+h2 takes: 	306090 us
+hash takes: 	306268 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6452us
+test of get :		3286us
+test of range get :		288705us
+test of remove :		22327us
+test of hash takes:	320880us
+start test of avl
+test of insert :		6273us
+test of get :		3314us
+test of range get :		224874us
+test of remove :		9902us
+test of avl takes:	244478us
+start test of hybrid
+test of insert :		5320us
+test of get :		2290us
+test of range get :		238756us
+test of remove :		7375us
+test of hybrid takes:	253831us
+start test of h2
+test of insert :		4807us
+test of get :		3237us
+test of range get :		270890us
+test of remove :		25214us
+test of h2 takes:	304248us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244478 us
+hybrid takes: 	253831 us
+h2 takes: 	304248 us
+hash takes: 	320880 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4210us
+test of get :		2573us
+test of range get :		269226us
+test of remove :		22243us
+test of hash takes:	298356us
+start test of avl
+test of insert :		6330us
+test of get :		3637us
+test of range get :		228822us
+test of remove :		9561us
+test of avl takes:	248465us
+start test of hybrid
+test of insert :		5277us
+test of get :		2335us
+test of range get :		241220us
+test of remove :		7411us
+test of hybrid takes:	256332us
+start test of h2
+test of insert :		4913us
+test of get :		3365us
+test of range get :		272030us
+test of remove :		24712us
+test of h2 takes:	305134us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248465 us
+hybrid takes: 	256332 us
+hash takes: 	298356 us
+h2 takes: 	305134 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4022us
+test of get :		2497us
+test of range get :		272829us
+test of remove :		23001us
+test of hash takes:	302452us
+start test of avl
+test of insert :		6344us
+test of get :		3471us
+test of range get :		234899us
+test of remove :		9335us
+test of avl takes:	254145us
+start test of hybrid
+test of insert :		5392us
+test of get :		2372us
+test of range get :		249928us
+test of remove :		7429us
+test of hybrid takes:	265213us
+start test of h2
+test of insert :		4648us
+test of get :		3244us
+test of range get :		278683us
+test of remove :		25221us
+test of h2 takes:	311887us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	254145 us
+hybrid takes: 	265213 us
+hash takes: 	302452 us
+h2 takes: 	311887 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9379us
+test of get :		2822us
+test of range get :		274295us
+test of remove :		22242us
+test of hash takes:	308847us
+start test of avl
+test of insert :		6372us
+test of get :		3299us
+test of range get :		222196us
+test of remove :		9401us
+test of avl takes:	241379us
+start test of hybrid
+test of insert :		5335us
+test of get :		2344us
+test of range get :		232210us
+test of remove :		7367us
+test of hybrid takes:	247367us
+start test of h2
+test of insert :		4646us
+test of get :		3251us
+test of range get :		267190us
+test of remove :		23998us
+test of h2 takes:	299188us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	241379 us
+hybrid takes: 	247367 us
+h2 takes: 	299188 us
+hash takes: 	308847 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4163us
+test of get :		2483us
+test of range get :		271852us
+test of remove :		22228us
+test of hash takes:	300831us
+start test of avl
+test of insert :		6426us
+test of get :		3359us
+test of range get :		231565us
+test of remove :		9405us
+test of avl takes:	250859us
+start test of hybrid
+test of insert :		5358us
+test of get :		2476us
+test of range get :		243207us
+test of remove :		7247us
+test of hybrid takes:	258390us
+start test of h2
+test of insert :		4744us
+test of get :		3418us
+test of range get :		276820us
+test of remove :		24809us
+test of h2 takes:	309909us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	250859 us
+hybrid takes: 	258390 us
+hash takes: 	300831 us
+h2 takes: 	309909 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4047us
+test of get :		2505us
+test of range get :		270316us
+test of remove :		22260us
+test of hash takes:	299235us
+start test of avl
+test of insert :		6224us
+test of get :		3513us
+test of range get :		227496us
+test of remove :		9620us
+test of avl takes:	246964us
+start test of hybrid
+test of insert :		5277us
+test of get :		2308us
+test of range get :		236354us
+test of remove :		7252us
+test of hybrid takes:	251286us
+start test of h2
+test of insert :		4666us
+test of get :		3422us
+test of range get :		272084us
+test of remove :		24212us
+test of h2 takes:	304488us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246964 us
+hybrid takes: 	251286 us
+hash takes: 	299235 us
+h2 takes: 	304488 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		8885us
+test of get :		3616us
+test of range get :		266997us
+test of remove :		22574us
+test of hash takes:	302230us
+start test of avl
+test of insert :		6426us
+test of get :		4457us
+test of range get :		223772us
+test of remove :		9521us
+test of avl takes:	244294us
+start test of hybrid
+test of insert :		5312us
+test of get :		2464us
+test of range get :		232434us
+test of remove :		7259us
+test of hybrid takes:	247570us
+start test of h2
+test of insert :		4671us
+test of get :		3398us
+test of range get :		270077us
+test of remove :		24234us
+test of h2 takes:	302494us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244294 us
+hybrid takes: 	247570 us
+hash takes: 	302230 us
+h2 takes: 	302494 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		8287us
+test of get :		4089us
+test of range get :		274168us
+test of remove :		22372us
+test of hash takes:	309059us
+start test of avl
+test of insert :		6354us
+test of get :		3350us
+test of range get :		230928us
+test of remove :		9569us
+test of avl takes:	250306us
+start test of hybrid
+test of insert :		5262us
+test of get :		2295us
+test of range get :		240218us
+test of remove :		7410us
+test of hybrid takes:	255280us
+start test of h2
+test of insert :		4716us
+test of get :		3714us
+test of range get :		271043us
+test of remove :		24318us
+test of h2 takes:	303890us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	250306 us
+hybrid takes: 	255280 us
+h2 takes: 	303890 us
+hash takes: 	309059 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4725us
+test of get :		2899us
+test of range get :		276928us
+test of remove :		22703us
+test of hash takes:	307365us
+start test of avl
+test of insert :		6320us
+test of get :		3424us
+test of range get :		224588us
+test of remove :		9664us
+test of avl takes:	244100us
+start test of hybrid
+test of insert :		6499us
+test of get :		2631us
+test of range get :		234633us
+test of remove :		7339us
+test of hybrid takes:	251200us
+start test of h2
+test of insert :		4702us
+test of get :		3338us
+test of range get :		273908us
+test of remove :		24551us
+test of h2 takes:	306593us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244100 us
+hybrid takes: 	251200 us
+h2 takes: 	306593 us
+hash takes: 	307365 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3880us
+test of get :		2320us
+test of range get :		273845us
+test of remove :		22684us
+test of hash takes:	302830us
+start test of avl
+test of insert :		6232us
+test of get :		3398us
+test of range get :		230627us
+test of remove :		9477us
+test of avl takes:	249838us
+start test of hybrid
+test of insert :		5297us
+test of get :		2471us
+test of range get :		236489us
+test of remove :		7239us
+test of hybrid takes:	251592us
+start test of h2
+test of insert :		4592us
+test of get :		3521us
+test of range get :		273621us
+test of remove :		24492us
+test of h2 takes:	306325us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249838 us
+hybrid takes: 	251592 us
+hash takes: 	302830 us
+h2 takes: 	306325 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4338us
+test of get :		7847us
+test of range get :		271588us
+test of remove :		24248us
+test of hash takes:	308180us
+start test of avl
+test of insert :		6521us
+test of get :		3490us
+test of range get :		229217us
+test of remove :		9540us
+test of avl takes:	248875us
+start test of hybrid
+test of insert :		5285us
+test of get :		2357us
+test of range get :		242179us
+test of remove :		7638us
+test of hybrid takes:	257559us
+start test of h2
+test of insert :		4651us
+test of get :		3219us
+test of range get :		273254us
+test of remove :		24353us
+test of h2 takes:	305572us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248875 us
+hybrid takes: 	257559 us
+h2 takes: 	305572 us
+hash takes: 	308180 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4475us
+test of get :		2494us
+test of range get :		273147us
+test of remove :		22542us
+test of hash takes:	302764us
+start test of avl
+test of insert :		6242us
+test of get :		3557us
+test of range get :		229229us
+test of remove :		9667us
+test of avl takes:	248794us
+start test of hybrid
+test of insert :		5421us
+test of get :		2647us
+test of range get :		241629us
+test of remove :		7449us
+test of hybrid takes:	257238us
+start test of h2
+test of insert :		4539us
+test of get :		3359us
+test of range get :		273928us
+test of remove :		24652us
+test of h2 takes:	306579us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248794 us
+hybrid takes: 	257238 us
+hash takes: 	302764 us
+h2 takes: 	306579 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		7340us
+test of get :		3248us
+test of range get :		286704us
+test of remove :		22837us
+test of hash takes:	320252us
+start test of avl
+test of insert :		6315us
+test of get :		3457us
+test of range get :		229640us
+test of remove :		9485us
+test of avl takes:	249015us
+start test of hybrid
+test of insert :		5331us
+test of get :		2434us
+test of range get :		238005us
+test of remove :		7368us
+test of hybrid takes:	253231us
+start test of h2
+test of insert :		4620us
+test of get :		3376us
+test of range get :		275817us
+test of remove :		24903us
+test of h2 takes:	308823us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249015 us
+hybrid takes: 	253231 us
+h2 takes: 	308823 us
+hash takes: 	320252 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		8202us
+test of get :		4658us
+test of range get :		267688us
+test of remove :		22516us
+test of hash takes:	303210us
+start test of avl
+test of insert :		6492us
+test of get :		3426us
+test of range get :		225460us
+test of remove :		9454us
+test of avl takes:	244938us
+start test of hybrid
+test of insert :		5222us
+test of get :		2514us
+test of range get :		234065us
+test of remove :		7319us
+test of hybrid takes:	249218us
+start test of h2
+test of insert :		4662us
+test of get :		3496us
+test of range get :		267333us
+test of remove :		24678us
+test of h2 takes:	300286us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244938 us
+hybrid takes: 	249218 us
+h2 takes: 	300286 us
+hash takes: 	303210 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3961us
+test of get :		2452us
+test of range get :		269187us
+test of remove :		22490us
+test of hash takes:	298195us
+start test of avl
+test of insert :		6373us
+test of get :		3430us
+test of range get :		248576us
+test of remove :		9559us
+test of avl takes:	268053us
+start test of hybrid
+test of insert :		5268us
+test of get :		2358us
+test of range get :		238461us
+test of remove :		7459us
+test of hybrid takes:	253644us
+start test of h2
+test of insert :		4556us
+test of get :		3257us
+test of range get :		280167us
+test of remove :		25443us
+test of h2 takes:	313521us
+//fastest of the four conbination:hybrid
+summary:
+hybrid takes: 	253644 us
+avl takes: 	268053 us
+hash takes: 	298195 us
+h2 takes: 	313521 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		5937us
+test of get :		2643us
+test of range get :		280574us
+test of remove :		22409us
+test of hash takes:	311673us
+start test of avl
+test of insert :		6446us
+test of get :		3355us
+test of range get :		226246us
+test of remove :		9366us
+test of avl takes:	245517us
+start test of hybrid
+test of insert :		5404us
+test of get :		2552us
+test of range get :		233848us
+test of remove :		7289us
+test of hybrid takes:	249189us
+start test of h2
+test of insert :		4833us
+test of get :		3362us
+test of range get :		268978us
+test of remove :		26423us
+test of h2 takes:	303694us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245517 us
+hybrid takes: 	249189 us
+h2 takes: 	303694 us
+hash takes: 	311673 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4110us
+test of get :		2454us
+test of range get :		267303us
+test of remove :		22357us
+test of hash takes:	296332us
+start test of avl
+test of insert :		6345us
+test of get :		3333us
+test of range get :		230176us
+test of remove :		9435us
+test of avl takes:	249410us
+start test of hybrid
+test of insert :		5275us
+test of get :		2409us
+test of range get :		237852us
+test of remove :		7531us
+test of hybrid takes:	253171us
+start test of h2
+test of insert :		4577us
+test of get :		3216us
+test of range get :		274532us
+test of remove :		24317us
+test of h2 takes:	306744us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249410 us
+hybrid takes: 	253171 us
+hash takes: 	296332 us
+h2 takes: 	306744 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3914us
+test of get :		2520us
+test of range get :		266319us
+test of remove :		22280us
+test of hash takes:	295138us
+start test of avl
+test of insert :		6247us
+test of get :		3308us
+test of range get :		221743us
+test of remove :		9565us
+test of avl takes:	240968us
+start test of hybrid
+test of insert :		5235us
+test of get :		2536us
+test of range get :		231839us
+test of remove :		7632us
+test of hybrid takes:	247343us
+start test of h2
+test of insert :		4620us
+test of get :		3237us
+test of range get :		269032us
+test of remove :		24593us
+test of h2 takes:	301583us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	240968 us
+hybrid takes: 	247343 us
+hash takes: 	295138 us
+h2 takes: 	301583 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		8720us
+test of get :		2610us
+test of range get :		281055us
+test of remove :		22371us
+test of hash takes:	314858us
+start test of avl
+test of insert :		6230us
+test of get :		3430us
+test of range get :		223443us
+test of remove :		9662us
+test of avl takes:	242873us
+start test of hybrid
+test of insert :		5280us
+test of get :		2349us
+test of range get :		238497us
+test of remove :		8334us
+test of hybrid takes:	254558us
+start test of h2
+test of insert :		4570us
+test of get :		3314us
+test of range get :		270655us
+test of remove :		25117us
+test of h2 takes:	303752us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	242873 us
+hybrid takes: 	254558 us
+h2 takes: 	303752 us
+hash takes: 	314858 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3872us
+test of get :		2547us
+test of range get :		267810us
+test of remove :		22036us
+test of hash takes:	296368us
+start test of avl
+test of insert :		6337us
+test of get :		3478us
+test of range get :		226984us
+test of remove :		9630us
+test of avl takes:	246537us
+start test of hybrid
+test of insert :		5240us
+test of get :		2288us
+test of range get :		236399us
+test of remove :		7240us
+test of hybrid takes:	251254us
+start test of h2
+test of insert :		4717us
+test of get :		3527us
+test of range get :		271095us
+test of remove :		25014us
+test of h2 takes:	304456us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	246537 us
+hybrid takes: 	251254 us
+hash takes: 	296368 us
+h2 takes: 	304456 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4133us
+test of get :		2596us
+test of range get :		270575us
+test of remove :		22524us
+test of hash takes:	299946us
+start test of avl
+test of insert :		6379us
+test of get :		3484us
+test of range get :		230047us
+test of remove :		9481us
+test of avl takes:	249503us
+start test of hybrid
+test of insert :		5341us
+test of get :		2318us
+test of range get :		235446us
+test of remove :		7160us
+test of hybrid takes:	250362us
+start test of h2
+test of insert :		4658us
+test of get :		3368us
+test of range get :		272307us
+test of remove :		24439us
+test of h2 takes:	304873us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	249503 us
+hybrid takes: 	250362 us
+hash takes: 	299946 us
+h2 takes: 	304873 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4031us
+test of get :		2711us
+test of range get :		273330us
+test of remove :		22355us
+test of hash takes:	302543us
+start test of avl
+test of insert :		6444us
+test of get :		3594us
+test of range get :		231838us
+test of remove :		9626us
+test of avl takes:	251609us
+start test of hybrid
+test of insert :		5469us
+test of get :		2615us
+test of range get :		242757us
+test of remove :		7494us
+test of hybrid takes:	258430us
+start test of h2
+test of insert :		4671us
+test of get :		3235us
+test of range get :		274725us
+test of remove :		24639us
+test of h2 takes:	307366us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	251609 us
+hybrid takes: 	258430 us
+hash takes: 	302543 us
+h2 takes: 	307366 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6089us
+test of get :		2748us
+test of range get :		271960us
+test of remove :		21889us
+test of hash takes:	302794us
+start test of avl
+test of insert :		6336us
+test of get :		3421us
+test of range get :		226246us
+test of remove :		9465us
+test of avl takes:	245567us
+start test of hybrid
+test of insert :		5400us
+test of get :		2594us
+test of range get :		241337us
+test of remove :		7351us
+test of hybrid takes:	256780us
+start test of h2
+test of insert :		4721us
+test of get :		3331us
+test of range get :		271999us
+test of remove :		24359us
+test of h2 takes:	304527us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245567 us
+hybrid takes: 	256780 us
+hash takes: 	302794 us
+h2 takes: 	304527 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4435us
+test of get :		2508us
+test of range get :		268776us
+test of remove :		22105us
+test of hash takes:	297941us
+start test of avl
+test of insert :		6153us
+test of get :		3408us
+test of range get :		221446us
+test of remove :		9438us
+test of avl takes:	240556us
+start test of hybrid
+test of insert :		5153us
+test of get :		2235us
+test of range get :		229251us
+test of remove :		7149us
+test of hybrid takes:	243887us
+start test of h2
+test of insert :		4658us
+test of get :		3436us
+test of range get :		268525us
+test of remove :		24094us
+test of h2 takes:	300820us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	240556 us
+hybrid takes: 	243887 us
+hash takes: 	297941 us
+h2 takes: 	300820 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4017us
+test of get :		2480us
+test of range get :		265706us
+test of remove :		22011us
+test of hash takes:	294318us
+start test of avl
+test of insert :		6167us
+test of get :		3446us
+test of range get :		226344us
+test of remove :		9649us
+test of avl takes:	245712us
+start test of hybrid
+test of insert :		5138us
+test of get :		2294us
+test of range get :		231078us
+test of remove :		7835us
+test of hybrid takes:	246441us
+start test of h2
+test of insert :		4590us
+test of get :		3331us
+test of range get :		270479us
+test of remove :		24526us
+test of h2 takes:	303027us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245712 us
+hybrid takes: 	246441 us
+hash takes: 	294318 us
+h2 takes: 	303027 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9052us
+test of get :		6057us
+test of range get :		281932us
+test of remove :		22349us
+test of hash takes:	319540us
+start test of avl
+test of insert :		6279us
+test of get :		3553us
+test of range get :		223745us
+test of remove :		9520us
+test of avl takes:	243204us
+start test of hybrid
+test of insert :		5350us
+test of get :		2412us
+test of range get :		231073us
+test of remove :		7473us
+test of hybrid takes:	246408us
+start test of h2
+test of insert :		4652us
+test of get :		3190us
+test of range get :		267521us
+test of remove :		24171us
+test of h2 takes:	299628us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243204 us
+hybrid takes: 	246408 us
+h2 takes: 	299628 us
+hash takes: 	319540 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9696us
+test of get :		2876us
+test of range get :		270470us
+test of remove :		22023us
+test of hash takes:	305174us
+start test of avl
+test of insert :		6322us
+test of get :		3453us
+test of range get :		226389us
+test of remove :		9709us
+test of avl takes:	245978us
+start test of hybrid
+test of insert :		5336us
+test of get :		2461us
+test of range get :		240342us
+test of remove :		7520us
+test of hybrid takes:	255753us
+start test of h2
+test of insert :		4762us
+test of get :		3290us
+test of range get :		272026us
+test of remove :		24380us
+test of h2 takes:	304551us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245978 us
+hybrid takes: 	255753 us
+h2 takes: 	304551 us
+hash takes: 	305174 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4140us
+test of get :		2466us
+test of range get :		271611us
+test of remove :		22326us
+test of hash takes:	300647us
+start test of avl
+test of insert :		6231us
+test of get :		3305us
+test of range get :		220426us
+test of remove :		9682us
+test of avl takes:	239761us
+start test of hybrid
+test of insert :		5852us
+test of get :		2656us
+test of range get :		233131us
+test of remove :		7203us
+test of hybrid takes:	248945us
+start test of h2
+test of insert :		4650us
+test of get :		3388us
+test of range get :		268336us
+test of remove :		24507us
+test of h2 takes:	300985us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	239761 us
+hybrid takes: 	248945 us
+hash takes: 	300647 us
+h2 takes: 	300985 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4103us
+test of get :		4293us
+test of range get :		269829us
+test of remove :		22131us
+test of hash takes:	300481us
+start test of avl
+test of insert :		6447us
+test of get :		3371us
+test of range get :		225789us
+test of remove :		9688us
+test of avl takes:	245400us
+start test of hybrid
+test of insert :		5187us
+test of get :		2286us
+test of range get :		234874us
+test of remove :		7151us
+test of hybrid takes:	249593us
+start test of h2
+test of insert :		4623us
+test of get :		3373us
+test of range get :		274156us
+test of remove :		24530us
+test of h2 takes:	306778us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245400 us
+hybrid takes: 	249593 us
+hash takes: 	300481 us
+h2 takes: 	306778 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4079us
+test of get :		2420us
+test of range get :		266978us
+test of remove :		22323us
+test of hash takes:	295910us
+start test of avl
+test of insert :		6575us
+test of get :		3409us
+test of range get :		228853us
+test of remove :		9363us
+test of avl takes:	248305us
+start test of hybrid
+test of insert :		5554us
+test of get :		2404us
+test of range get :		235869us
+test of remove :		7289us
+test of hybrid takes:	251215us
+start test of h2
+test of insert :		4715us
+test of get :		3429us
+test of range get :		270250us
+test of remove :		24409us
+test of h2 takes:	302917us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248305 us
+hybrid takes: 	251215 us
+hash takes: 	295910 us
+h2 takes: 	302917 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4012us
+test of get :		2396us
+test of range get :		276390us
+test of remove :		22668us
+test of hash takes:	305569us
+start test of avl
+test of insert :		6367us
+test of get :		3420us
+test of range get :		223869us
+test of remove :		9429us
+test of avl takes:	243182us
+start test of hybrid
+test of insert :		5225us
+test of get :		2270us
+test of range get :		238542us
+test of remove :		7582us
+test of hybrid takes:	253713us
+start test of h2
+test of insert :		4576us
+test of get :		3405us
+test of range get :		271399us
+test of remove :		24488us
+test of h2 takes:	303970us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243182 us
+hybrid takes: 	253713 us
+h2 takes: 	303970 us
+hash takes: 	305569 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		7026us
+test of get :		2748us
+test of range get :		276170us
+test of remove :		23053us
+test of hash takes:	309107us
+start test of avl
+test of insert :		6218us
+test of get :		3338us
+test of range get :		228116us
+test of remove :		9707us
+test of avl takes:	247482us
+start test of hybrid
+test of insert :		5281us
+test of get :		2316us
+test of range get :		242026us
+test of remove :		7465us
+test of hybrid takes:	257188us
+start test of h2
+test of insert :		4664us
+test of get :		3249us
+test of range get :		272743us
+test of remove :		25186us
+test of h2 takes:	305958us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	247482 us
+hybrid takes: 	257188 us
+h2 takes: 	305958 us
+hash takes: 	309107 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		5484us
+test of get :		2638us
+test of range get :		266952us
+test of remove :		22002us
+test of hash takes:	297179us
+start test of avl
+test of insert :		6205us
+test of get :		3342us
+test of range get :		229898us
+test of remove :		9410us
+test of avl takes:	248953us
+start test of hybrid
+test of insert :		5351us
+test of get :		2417us
+test of range get :		240652us
+test of remove :		7257us
+test of hybrid takes:	255774us
+start test of h2
+test of insert :		4762us
+test of get :		3431us
+test of range get :		272782us
+test of remove :		24283us
+test of h2 takes:	305351us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248953 us
+hybrid takes: 	255774 us
+hash takes: 	297179 us
+h2 takes: 	305351 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4055us
+test of get :		2496us
+test of range get :		268758us
+test of remove :		22573us
+test of hash takes:	297988us
+start test of avl
+test of insert :		6282us
+test of get :		3333us
+test of range get :		226284us
+test of remove :		9490us
+test of avl takes:	245485us
+start test of hybrid
+test of insert :		5381us
+test of get :		2582us
+test of range get :		234017us
+test of remove :		7372us
+test of hybrid takes:	249442us
+start test of h2
+test of insert :		4684us
+test of get :		3378us
+test of range get :		271741us
+test of remove :		24614us
+test of h2 takes:	304510us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245485 us
+hybrid takes: 	249442 us
+hash takes: 	297988 us
+h2 takes: 	304510 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4055us
+test of get :		2487us
+test of range get :		272366us
+test of remove :		22331us
+test of hash takes:	301337us
+start test of avl
+test of insert :		6309us
+test of get :		3348us
+test of range get :		226741us
+test of remove :		9402us
+test of avl takes:	245898us
+start test of hybrid
+test of insert :		5288us
+test of get :		2297us
+test of range get :		238531us
+test of remove :		7394us
+test of hybrid takes:	253598us
+start test of h2
+test of insert :		4679us
+test of get :		3260us
+test of range get :		269953us
+test of remove :		24334us
+test of h2 takes:	302322us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	245898 us
+hybrid takes: 	253598 us
+hash takes: 	301337 us
+h2 takes: 	302322 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		11435us
+test of get :		4949us
+test of range get :		324510us
+test of remove :		22210us
+test of hash takes:	363237us
+start test of avl
+test of insert :		6283us
+test of get :		3344us
+test of range get :		222059us
+test of remove :		9426us
+test of avl takes:	241219us
+start test of hybrid
+test of insert :		5411us
+test of get :		2399us
+test of range get :		232459us
+test of remove :		7444us
+test of hybrid takes:	247811us
+start test of h2
+test of insert :		4752us
+test of get :		3366us
+test of range get :		271281us
+test of remove :		25908us
+test of h2 takes:	305405us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	241219 us
+hybrid takes: 	247811 us
+h2 takes: 	305405 us
+hash takes: 	363237 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3938us
+test of get :		2438us
+test of range get :		269165us
+test of remove :		22295us
+test of hash takes:	297936us
+start test of avl
+test of insert :		6217us
+test of get :		3360us
+test of range get :		228945us
+test of remove :		9476us
+test of avl takes:	248109us
+start test of hybrid
+test of insert :		5501us
+test of get :		2449us
+test of range get :		237988us
+test of remove :		7332us
+test of hybrid takes:	253364us
+start test of h2
+test of insert :		4586us
+test of get :		3264us
+test of range get :		274386us
+test of remove :		24415us
+test of h2 takes:	306748us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248109 us
+hybrid takes: 	253364 us
+hash takes: 	297936 us
+h2 takes: 	306748 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		5822us
+test of get :		3829us
+test of range get :		273117us
+test of remove :		22474us
+test of hash takes:	305389us
+start test of avl
+test of insert :		7003us
+test of get :		3803us
+test of range get :		236486us
+test of remove :		9675us
+test of avl takes:	257073us
+start test of hybrid
+test of insert :		5295us
+test of get :		2698us
+test of range get :		242026us
+test of remove :		8095us
+test of hybrid takes:	258223us
+start test of h2
+test of insert :		4723us
+test of get :		3223us
+test of range get :		277915us
+test of remove :		24616us
+test of h2 takes:	310576us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	257073 us
+hybrid takes: 	258223 us
+hash takes: 	305389 us
+h2 takes: 	310576 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4702us
+test of get :		2429us
+test of range get :		276120us
+test of remove :		22703us
+test of hash takes:	306058us
+start test of avl
+test of insert :		6361us
+test of get :		3338us
+test of range get :		223847us
+test of remove :		9387us
+test of avl takes:	243038us
+start test of hybrid
+test of insert :		5310us
+test of get :		2456us
+test of range get :		234158us
+test of remove :		7201us
+test of hybrid takes:	249217us
+start test of h2
+test of insert :		4627us
+test of get :		3321us
+test of range get :		267922us
+test of remove :		24595us
+test of h2 takes:	300582us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	243038 us
+hybrid takes: 	249217 us
+h2 takes: 	300582 us
+hash takes: 	306058 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9531us
+test of get :		2614us
+test of range get :		272812us
+test of remove :		22566us
+test of hash takes:	307632us
+start test of avl
+test of insert :		6394us
+test of get :		3543us
+test of range get :		225421us
+test of remove :		9470us
+test of avl takes:	244936us
+start test of hybrid
+test of insert :		5517us
+test of get :		2448us
+test of range get :		236317us
+test of remove :		7418us
+test of hybrid takes:	251804us
+start test of h2
+test of insert :		4667us
+test of get :		3502us
+test of range get :		271513us
+test of remove :		24430us
+test of h2 takes:	304216us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244936 us
+hybrid takes: 	251804 us
+h2 takes: 	304216 us
+hash takes: 	307632 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4154us
+test of get :		2545us
+test of range get :		269502us
+test of remove :		22321us
+test of hash takes:	298630us
+start test of avl
+test of insert :		6449us
+test of get :		3476us
+test of range get :		231486us
+test of remove :		9509us
+test of avl takes:	251021us
+start test of hybrid
+test of insert :		5547us
+test of get :		2341us
+test of range get :		239253us
+test of remove :		7412us
+test of hybrid takes:	254647us
+start test of h2
+test of insert :		4630us
+test of get :		3601us
+test of range get :		277890us
+test of remove :		24934us
+test of h2 takes:	311221us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	251021 us
+hybrid takes: 	254647 us
+hash takes: 	298630 us
+h2 takes: 	311221 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4079us
+test of get :		2457us
+test of range get :		268430us
+test of remove :		22632us
+test of hash takes:	297708us
+start test of avl
+test of insert :		6845us
+test of get :		4402us
+test of range get :		229476us
+test of remove :		9326us
+test of avl takes:	250165us
+start test of hybrid
+test of insert :		5950us
+test of get :		2426us
+test of range get :		241522us
+test of remove :		8076us
+test of hybrid takes:	258080us
+start test of h2
+test of insert :		4660us
+test of get :		3253us
+test of range get :		274606us
+test of remove :		24399us
+test of h2 takes:	307018us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	250165 us
+hybrid takes: 	258080 us
+hash takes: 	297708 us
+h2 takes: 	307018 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3991us
+test of get :		2507us
+test of range get :		268447us
+test of remove :		22324us
+test of hash takes:	297377us
+start test of avl
+test of insert :		6200us
+test of get :		3459us
+test of range get :		223575us
+test of remove :		9536us
+test of avl takes:	242876us
+start test of hybrid
+test of insert :		5222us
+test of get :		2296us
+test of range get :		235926us
+test of remove :		7471us
+test of hybrid takes:	251010us
+start test of h2
+test of insert :		4821us
+test of get :		3303us
+test of range get :		266092us
+test of remove :		24496us
+test of h2 takes:	298814us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	242876 us
+hybrid takes: 	251010 us
+hash takes: 	297377 us
+h2 takes: 	298814 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		6483us
+test of get :		3268us
+test of range get :		282470us
+test of remove :		22279us
+test of hash takes:	314629us
+start test of avl
+test of insert :		6264us
+test of get :		3463us
+test of range get :		228974us
+test of remove :		9754us
+test of avl takes:	248570us
+start test of hybrid
+test of insert :		5771us
+test of get :		3022us
+test of range get :		240318us
+test of remove :		7206us
+test of hybrid takes:	256416us
+start test of h2
+test of insert :		4701us
+test of get :		3358us
+test of range get :		273757us
+test of remove :		25679us
+test of h2 takes:	307596us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	248570 us
+hybrid takes: 	256416 us
+h2 takes: 	307596 us
+hash takes: 	314629 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4012us
+test of get :		2520us
+test of range get :		267897us
+test of remove :		22522us
+test of hash takes:	297086us
+start test of avl
+test of insert :		6230us
+test of get :		3326us
+test of range get :		225406us
+test of remove :		9379us
+test of avl takes:	244446us
+start test of hybrid
+test of insert :		5206us
+test of get :		2378us
+test of range get :		230806us
+test of remove :		7296us
+test of hybrid takes:	245789us
+start test of h2
+test of insert :		4730us
+test of get :		3383us
+test of range get :		272170us
+test of remove :		24310us
+test of h2 takes:	304691us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244446 us
+hybrid takes: 	245789 us
+hash takes: 	297086 us
+h2 takes: 	304691 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		4020us
+test of get :		2402us
+test of range get :		266321us
+test of remove :		22796us
+test of hash takes:	295638us
+start test of avl
+test of insert :		7493us
+test of get :		3763us
+test of range get :		225945us
+test of remove :		9898us
+test of avl takes:	247220us
+start test of hybrid
+test of insert :		5271us
+test of get :		2363us
+test of range get :		232856us
+test of remove :		7219us
+test of hybrid takes:	247807us
+start test of h2
+test of insert :		4623us
+test of get :		4334us
+test of range get :		273031us
+test of remove :		24567us
+test of h2 takes:	306660us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	247220 us
+hybrid takes: 	247807 us
+hash takes: 	295638 us
+h2 takes: 	306660 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		3931us
+test of get :		2562us
+test of range get :		273034us
+test of remove :		22552us
+test of hash takes:	302183us
+start test of avl
+test of insert :		6333us
+test of get :		3575us
+test of range get :		225078us
+test of remove :		9505us
+test of avl takes:	244596us
+start test of hybrid
+test of insert :		5218us
+test of get :		2330us
+test of range get :		241201us
+test of remove :		7337us
+test of hybrid takes:	256179us
+start test of h2
+test of insert :		4786us
+test of get :		3380us
+test of range get :		272439us
+test of remove :		24674us
+test of h2 takes:	305380us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	244596 us
+hybrid takes: 	256179 us
+hash takes: 	302183 us
+h2 takes: 	305380 us
+
+data set of 10000 is ready.
+start test of hash
+test of insert :		9703us
+test of get :		2592us
+test of range get :		269215us
+test of remove :		22682us
+test of hash takes:	304295us
+start test of avl
+test of insert :		6351us
+test of get :		3497us
+test of range get :		222307us
+test of remove :		9593us
+test of avl takes:	241859us
+start test of hybrid
+test of insert :		5266us
+test of get :		2311us
+test of range get :		234732us
+test of remove :		7206us
+test of hybrid takes:	249609us
+start test of h2
+test of insert :		4733us
+test of get :		3333us
+test of range get :		269496us
+test of remove :		25002us
+test of h2 takes:	302664us
+//fastest of the four conbination:avl
+summary:
+avl takes: 	241859 us
+hybrid takes: 	249609 us
+h2 takes: 	302664 us
+hash takes: 	304295 us
+
