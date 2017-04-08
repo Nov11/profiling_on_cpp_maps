@@ -60,26 +60,27 @@ debug模式下，hash container上的操作更慢。profiler显示算hash占用�
 ```
 //-------------------release-------------------------------------
 test result(release) : init bucket size : 10000
-data size		  hash container takes(us)	avl container takes(us)
-1000000		    5971483						        6511570
-100000		    588445						        615483
-10000			56498						        58232
-1000			5220						        5406
-100			    631							        607
+data size	hash container takes(us)	avl container takes(us)
+1000000		5971483						6511570
+100000		588445						615483
+10000		56498						58232
+1000		5220						5406
+100     631							607
+
 test result(release) : init bucket size : 100000
-data size		  hash container takes(us)	avl container takes(us)
-1000000		    5975458						        6497002
-100000		    594449						        623836
-10000		    55196						        59085
-1000		    6387						        6804
-100			    624							        657
+data size	hash container takes(us)	avl container takes(us)
+1000000		5975458						6497002
+100000		594449						623836
+10000		55196						59085
+1000		6387						6804
+100			624							657
 test result(release) : init bucket size : 1000000
-data size		  hash container takes(us)	avl container takes(us)
-1000000		    5740553						        6559322					<--order objs(216bytes / obj) take at least 216MB
-100000		    617890						        633241
-10000			62041						        59514
-1000			5358						        5505
-100			    518							        580
+data size	hash container takes(us)	avl container takes(us)
+1000000		5740553						6559322					<--order objs(216bytes / obj) take at least 216MB
+100000		617890						633241
+10000		62041						59514
+1000		5358						5505
+100			518							580
 ```
 
 相对于debug模式，release模式下计算hash的时间大幅下降，hash container在时间上更有优势。
