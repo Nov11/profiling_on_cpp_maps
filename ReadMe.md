@@ -52,9 +52,9 @@ debug/release均为默认配置。debug无优化，release O2优化。
 test result(debug): init bucket size:10000
 data size        hash container takes(us)	avl container takes(us)
 100000		    70326861					63934735
-10000			7284512						6215236
-1000			681339						566439
-100			    69843						50600
+10000			    7284512						6215236
+1000			    681339						566439
+100			      69843						  50600
 debug模式下，hash container上的操作更慢。profiler显示算hash占用了不少时间。
 ```
 ```
@@ -63,23 +63,23 @@ test result(release): init bucket size:10000
 data size		hash container takes(us)	avl container takes(us)
 1000000		    5971483						6511570
 100000		    588445						615483
-10000			56498						58232
-1000			5220						5406
-100			    631							607
+10000			    56498						  58232
+1000			    5220						  5406
+100			      631							  607
 test result(release): init bucket size:100000
 data size		hash container takes(us)	avl container takes(us)
 1000000		    5975458						6497002
 100000		    594449						623836
-10000			55196						59085
-1000			6387						6804
-100			    624							657
+10000			    55196						  59085
+1000			    6387						  6804
+100			      624							  657
 test result(release): init bucket size:1000000
 data size		hash container takes(us)	avl container takes(us)
 1000000		    5740553						6559322					<--order objs(216bytes/obj) take at least 216MB
 100000		    617890						633241
-10000			62041						59514
-1000			5358						5505
-100			    518							580
+10000			    62041						  59514
+1000			    5358						  5505
+100			      518							  580
 ```
 
 相对于debug模式，release模式下计算hash的时间大幅下降，hash container在时间上更有优势。
@@ -89,8 +89,8 @@ data size		hash container takes(us)	avl container takes(us)
 test result(release): init bucket size:1000000
 data size		hash container takes(us)	avl container takes(us)
 10000000		61723154					65170566				<--order objs(272bytes/obj) take at least 2720MB
-1000000		    5454603						5862729
-100000		    551399						545956
+1000000		  5454603						5862729
+100000		  551399						545956
 我的机器内存8G，数据集再增长的话，会导致频繁的换页。测试程序本身能跑满一个CPU核心，频繁换页跑满IO也不难，这种情况下机器基本没法用了，实际也测不了。
 如果数据集大小超出内存容量，可以考虑用DBMS,比如redis，MySQL。
 ```
@@ -112,16 +112,16 @@ hash容器初始bucket对执行时间的影响不明显，可按照预估数据�
 ```
 data set of 1000000 is ready.
 start test of hash
-test of insert :		541629us
-test of get :			310246us
+test of insert :		  541629us
+test of get :			    310246us
 test of range get :		3508650us
-test of remove :		929010us
+test of remove :		  929010us
 test of hash takes :	5293711us
 start test of avl
-test of insert :		785978us
-test of get :			386025us
+test of insert :		  785978us
+test of get :			    386025us
 test of range get :		3634647us
-test of remove :		1084213us
+test of remove :		  1084213us
 test of avl takes :		5894195us
 ```
 hash版本在每一步上的用时都比较少。
@@ -132,17 +132,17 @@ hash版本在每一步上的用时都比较少。
 ```
 data set of 1000000 is ready.
 start test of hash
-test of insert takes:		334961us
-test of get takes:			225020us
+test of insert takes:		  334961us
+test of get takes:			  225020us
 test of range get takes:	3876166us
-test of remove takes:		1699786us
-test of hash takes:			6136015us
+test of remove takes:		  1699786us
+test of hash takes:			  6136015us
 start test of avl
-test of insert takes:		734608us
-test of get takes:			304014us
-test of range get takes:    3192544us
-test of remove takes:		833587us
-test of avl takes:			5064828us
+test of insert takes:		  734608us
+test of get takes:			  304014us
+test of range get takes:  3192544us
+test of remove takes:		  833587us
+test of avl takes:			  5064828us
 ```
 hash版本在插入和按照主键查询的时候更有效率，而平衡二叉树的范围查找和删除操作更快。
 
@@ -152,17 +152,17 @@ hash版本在插入和按照主键查询的时候更有效率，而平衡二叉�
 ```
 data set of 10000000 is ready.
 start test of hash
-test of insert takes:		4554487us
-test of get takes:			2489368us
+test of insert takes:		  4554487us
+test of get takes:			  2489368us
 test of range get takes:	39070648us
-test of remove takes:		16515289us
-test of hash takes:	63052976us
+test of remove takes:		  16515289us
+test of hash takes:	      63052976us
 start test of avl
-test of insert takes:		8864648us
-test of get takes:			4097757us
+test of insert takes:		  8864648us
+test of get takes:			  4097757us
 test of range get takes:	32800296us
-test of remove takes:		10158488us
-test of avl takes:	56176627us
+test of remove takes:		  10158488us
+test of avl takes:	      56176627us
 ```
 
 在数据量小于1000000时，hash container在linux上的总时间更长，只有插入操作比二叉树快。
