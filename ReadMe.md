@@ -13,7 +13,7 @@
 ```
 
 ###### 测试在test.cpp里。多线程用来加快动态分配内存，否则准备测试数据简直慢的要死。
-
+(originally resides in orders.h)
 #### 想法
 
 想法：
@@ -59,39 +59,39 @@ debug模式下，hash container上的操作更慢。profiler显示算hash占用�
 ```
 ```
 //-------------------release-------------------------------------
-test result(release) : init bucket size : 10000
-data size	hash container takes(us)	avl container takes(us)
-1000000		5971483						6511570
-100000		588445						615483
-10000		56498						58232
-1000		5220						5406
-100     631							607
-
-test result(release) : init bucket size : 100000
-data size	hash container takes(us)	avl container takes(us)
-1000000		5975458						6497002
-100000		594449						623836
-10000		55196						59085
-1000		6387						6804
-100			624							657
-test result(release) : init bucket size : 1000000
-data size	hash container takes(us)	avl container takes(us)
-1000000		5740553						6559322					<--order objs(216bytes / obj) take at least 216MB
-100000		617890						633241
-10000		62041						59514
-1000		5358						5505
-100			518							580
+//test result(release): init bucket size:10000
+//data size		hash container takes(us)	avl container takes(us)
+//1000000		5971483						6511570
+//100000		588445						615483
+//10000			56498						58232
+//1000			5220						5406
+//100			631							607
+//test result(release): init bucket size:100000
+//data size		hash container takes(us)	avl container takes(us)
+//1000000		5975458						6497002
+//100000		594449						623836
+//10000			55196						59085
+//1000			6387						6804
+//100			624							657
+//test result(release): init bucket size:1000000
+//data size		hash container takes(us)	avl container takes(us)
+//1000000		5740553						6559322					<--order objs(216bytes/obj) take at least 216MB
+//100000		617890						633241
+//10000			62041						59514
+//1000			5358						5505
+//100			518							580
+//
 ```
 
 相对于debug模式，release模式下计算hash的时间大幅下降，hash container在时间上更有优势。
 以上是32位模式测的。扩大数据集，使用64位模式测试：
 ```
 //-------------------release（64bit)--------------------------------
-test result(release): init bucket size:1000000
-data size		hash container takes(us)	avl container takes(us)
-10000000    61723154					        65170566				<--order objs(272bytes/obj) take at least 2720MB
-1000000     5454603						        5862729
-100000      551399						        545956
+//test result(release): init bucket size:1000000
+//data size		hash container takes(us)	avl container takes(us)
+//10000000		61723154					65170566				<--order objs(272bytes/obj) take at least 2720MB
+//1000000		5454603						5862729
+//100000		551399						545956
 我的机器内存8G，数据集再增长的话，会导致频繁的换页。测试程序本身能跑满一个CPU核心，频繁换页跑满IO也不难，这种情况下机器基本没法用了，实际也测不了。
 如果数据集大小超出内存容量，可以考虑用DBMS,比如redis，MySQL。
 ```
